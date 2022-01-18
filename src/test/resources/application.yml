@@ -1,0 +1,7 @@
+spring:
+  application:
+    name: library-service
+  datasource:
+    url: jdbc:tc:postgresql:12://hostname:5432/postgres?TC_TMPFS=/testtmpfs:rw
+  jpa:
+    show-sql: true
